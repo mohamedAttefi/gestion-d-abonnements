@@ -1,4 +1,10 @@
 package com.abonnement.entity;
 
-public class AbonnementSansEngagement {
+import java.time.LocalDate;
+
+public class AbonnementSansEngagement extends Abonnement {
+
+    public AbonnementSansEngagement(String nomService, int montantMensuel, LocalDate dateDebut, LocalDate dateFin, StatutAbonnement statut) {
+        super(nomService, montantMensuel, dateDebut, dateFin, statut);
+    }
 }
