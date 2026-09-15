@@ -35,7 +35,7 @@ build/
 ### VS Code ###
 .vscode/
 
-src/main/java/com/abonnement/database
+src/main/java/com/abonnement/databaseSetup
 
 ### Mac OS ###
 .DS_Store
