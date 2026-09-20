@@ -6,13 +6,13 @@ import java.util.UUID;
 public abstract class Abonnement {
     protected String id;
     protected String nomService;
-    protected int montantMensuel;
+    protected double montantMensuel;
     protected LocalDate dateDebut;
     protected LocalDate dateFin;
     protected StatutAbonnement statut;
 
 
-    public Abonnement(String nomService, int montantMensuel, LocalDate dateDebut, LocalDate dateFin, StatutAbonnement statut){
+    public Abonnement(String nomService, double montantMensuel, LocalDate dateDebut, LocalDate dateFin, StatutAbonnement statut){
         this.id = UUID.randomUUID().toString();
         this.nomService = nomService;
         this.montantMensuel = montantMensuel;
@@ -29,7 +29,7 @@ public abstract class Abonnement {
         return id;
     }
 
-    public int getMontantMensuel() {
+    public double getMontantMensuel() {
         return montantMensuel;
     }
 
@@ -49,7 +49,7 @@ public abstract class Abonnement {
         this.nomService = nomService;
     }
 
-    public void setMontantMensuel(int montantMensuel) {
+    public void setMontantMensuel(double montantMensuel) {
         this.montantMensuel = montantMensuel;
     }
 
