@@ -34,7 +34,7 @@ public class AbonnementMenu {
             System.out.println("======================================");
             System.out.println("       GESTION DES ABONNEMENTS");
             System.out.println("======================================");
-            System.out.println("1. Créer un abonnement");
+            System.out.println("1. Créer un abonnements");
             System.out.println("2. Modifier un abonnement");
             System.out.println("3. Supprimer un abonnement");
             System.out.println("4. Résilier un abonnement");
