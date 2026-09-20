@@ -1,4 +1,4 @@
 package com.abonnement.util;
 
-public class RapportMenu {
+public class DateUtil {
 }
